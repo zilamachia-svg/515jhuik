@@ -1,0 +1,11 @@
+{
+  "note": "Add these to your composer.json 'require-dev' section:",
+  "packages": [
+    "darkaonline/l5-swagger": "^8.0",
+    "zircote/swagger-php": "^4.0"
+  ],
+  "commands": [
+    "php artisan l5-swagger:generate"
+  ]
+}
+

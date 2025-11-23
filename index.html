@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>HẢI ĐĂNG META - Nền tảng dịch vụ meta hàng đầu Việt Nam</title>
+    <meta name="title" content="HẢI ĐĂNG META - Nền tảng dịch vụ meta hàng đầu Việt Nam" />
+    <meta name="description" content="Nền tảng dịch vụ meta hàng đầu Việt Nam. Mua bán tài khoản, nạp tiền, quản lý đơn hàng và nhiều tính năng khác." />
+    <meta name="keywords" content="hải đăng meta, dịch vụ meta, tài khoản facebook, tài khoản instagram, nạp tiền online" />
+    <meta name="author" content="Hải Đăng Meta" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-icon.png" />
+    
+    <!-- Facebook / Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://haidangmeta.com/" />
+    <meta property="og:title" content="HẢI ĐĂNG META - Nền tảng dịch vụ meta hàng đầu Việt Nam" />
+    <meta property="og:description" content="Nền tảng dịch vụ meta hàng đầu Việt Nam. Mua bán tài khoản, nạp tiền, quản lý đơn hàng và nhiều tính năng khác." />
+    <meta property="og:image" content="/logo.png" />
+    <meta property="fb:app_id" content="820326607281961" />
+    <meta name="facebook-domain-verification" content="mivfxi411r8is9w2ieh05ahhliejo8" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="HẢI ĐĂNG META - Nền tảng dịch vụ meta hàng đầu Việt Nam" />
+    <meta name="twitter:description" content="Nền tảng dịch vụ meta hàng đầu Việt Nam. Mua bán tài khoản, nạp tiền, quản lý đơn hàng và nhiều tính năng khác." />
+    <meta name="twitter:image" content="/logo.png" />
+    
+    <!-- Google Fonts: Inter & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=JetBrains+Mono:wght@100..800&display=swap" rel="stylesheet" />
+    
+    <!-- Google Maps API -->
+    <script>
+      let mapScriptLoaded = false;
+      function initMap() {
+        // Google Maps initialization callback
+        // This will be called when the map script loads
+        if (window.google && window.google.maps) {
+          mapScriptLoaded = true;
+          console.log('Google Maps API loaded successfully');
+        }
+      }
+      window.initMap = initMap;
+    </script>
+    <script 
+      async 
+      defer 
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly&loading=async"
+    ></script>
+    
+    <!-- Vite sẽ tự động inject CSS và JS vào đây khi build -->
+  </head>
+  <body data-theme="light">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,221 @@
+[21-Nov-2025 13:13:12 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Logger.php on line 683
+[21-Nov-2025 13:13:12 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Monolog\Logger" not found in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php:60
+Stack trace:
+#0 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php(38): Monolog\Handler\AbstractHandler->setLevel()
+#1 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(52): Monolog\Handler\AbstractHandler->__construct()
+#2 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(207): Monolog\Handler\StreamHandler->__construct()
+#3 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(161): Illuminate\Log\LogManager->createEmergencyLogger()
+#4 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(126): Illuminate\Log\LogManager->get()
+#5 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(701): Illuminate\Log\LogManager->driver()
+#6 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(380): Illuminate\Log\LogManager->error()
+#7 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(343): Illuminate\Foundation\Exceptions\Handler->reportThrowable()
+#8 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(186): Illuminate\Foundation\Exceptions\Handler->report()
+#9 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#10 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#11 {main}
+  thrown in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php on line 60
+[21-Nov-2025 17:55:26 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Logger.php on line 683
+[21-Nov-2025 17:55:26 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Monolog\Logger" not found in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php:60
+Stack trace:
+#0 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php(38): Monolog\Handler\AbstractHandler->setLevel()
+#1 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(52): Monolog\Handler\AbstractHandler->__construct()
+#2 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(207): Monolog\Handler\StreamHandler->__construct()
+#3 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(161): Illuminate\Log\LogManager->createEmergencyLogger()
+#4 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(126): Illuminate\Log\LogManager->get()
+#5 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(701): Illuminate\Log\LogManager->driver()
+#6 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(380): Illuminate\Log\LogManager->error()
+#7 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(343): Illuminate\Foundation\Exceptions\Handler->reportThrowable()
+#8 /home/wxhepg4t9r8z/backend/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(46): Illuminate\Foundation\Exceptions\Handler->report()
+#9 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(186): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->report()
+#10 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#12 {main}
+  thrown in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php on line 60
+[21-Nov-2025 17:58:20 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Logger.php on line 683
+[21-Nov-2025 17:58:20 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Monolog\Logger" not found in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php:60
+Stack trace:
+#0 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php(38): Monolog\Handler\AbstractHandler->setLevel()
+#1 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(52): Monolog\Handler\AbstractHandler->__construct()
+#2 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(207): Monolog\Handler\StreamHandler->__construct()
+#3 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(161): Illuminate\Log\LogManager->createEmergencyLogger()
+#4 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(126): Illuminate\Log\LogManager->get()
+#5 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(701): Illuminate\Log\LogManager->driver()
+#6 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(380): Illuminate\Log\LogManager->error()
+#7 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(343): Illuminate\Foundation\Exceptions\Handler->reportThrowable()
+#8 /home/wxhepg4t9r8z/backend/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(46): Illuminate\Foundation\Exceptions\Handler->report()
+#9 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(186): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->report()
+#10 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#12 {main}
+  thrown in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php on line 60
+[21-Nov-2025 18:57:15 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Logger.php on line 683
+[21-Nov-2025 18:57:15 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Monolog\Logger" not found in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php:60
+Stack trace:
+#0 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php(38): Monolog\Handler\AbstractHandler->setLevel()
+#1 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(52): Monolog\Handler\AbstractHandler->__construct()
+#2 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(207): Monolog\Handler\StreamHandler->__construct()
+#3 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(161): Illuminate\Log\LogManager->createEmergencyLogger()
+#4 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(126): Illuminate\Log\LogManager->get()
+#5 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(701): Illuminate\Log\LogManager->driver()
+#6 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(380): Illuminate\Log\LogManager->error()
+#7 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(343): Illuminate\Foundation\Exceptions\Handler->reportThrowable()
+#8 /home/wxhepg4t9r8z/backend/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(46): Illuminate\Foundation\Exceptions\Handler->report()
+#9 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(186): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->report()
+#10 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#12 {main}
+  thrown in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php on line 60
+[21-Nov-2025 22:35:44 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Logger.php on line 683
+[21-Nov-2025 22:35:44 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Monolog\Logger" not found in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php:60
+Stack trace:
+#0 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php(38): Monolog\Handler\AbstractHandler->setLevel()
+#1 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(52): Monolog\Handler\AbstractHandler->__construct()
+#2 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(207): Monolog\Handler\StreamHandler->__construct()
+#3 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(161): Illuminate\Log\LogManager->createEmergencyLogger()
+#4 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(126): Illuminate\Log\LogManager->get()
+#5 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(701): Illuminate\Log\LogManager->driver()
+#6 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(380): Illuminate\Log\LogManager->error()
+#7 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(343): Illuminate\Foundation\Exceptions\Handler->reportThrowable()
+#8 /home/wxhepg4t9r8z/backend/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(46): Illuminate\Foundation\Exceptions\Handler->report()
+#9 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(186): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->report()
+#10 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#12 {main}
+  thrown in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php on line 60
+[21-Nov-2025 22:54:34 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Logger.php on line 683
+[21-Nov-2025 22:54:34 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Monolog\Logger" not found in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php:60
+Stack trace:
+#0 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php(38): Monolog\Handler\AbstractHandler->setLevel()
+#1 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(52): Monolog\Handler\AbstractHandler->__construct()
+#2 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(207): Monolog\Handler\StreamHandler->__construct()
+#3 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(161): Illuminate\Log\LogManager->createEmergencyLogger()
+#4 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(126): Illuminate\Log\LogManager->get()
+#5 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(701): Illuminate\Log\LogManager->driver()
+#6 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(380): Illuminate\Log\LogManager->error()
+#7 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(343): Illuminate\Foundation\Exceptions\Handler->reportThrowable()
+#8 /home/wxhepg4t9r8z/backend/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(46): Illuminate\Foundation\Exceptions\Handler->report()
+#9 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(186): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->report()
+#10 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#12 {main}
+  thrown in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php on line 60
+[21-Nov-2025 22:57:44 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Logger.php on line 683
+[21-Nov-2025 22:57:44 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Monolog\Logger" not found in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php:60
+Stack trace:
+#0 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php(38): Monolog\Handler\AbstractHandler->setLevel()
+#1 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(52): Monolog\Handler\AbstractHandler->__construct()
+#2 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(207): Monolog\Handler\StreamHandler->__construct()
+#3 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(161): Illuminate\Log\LogManager->createEmergencyLogger()
+#4 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(126): Illuminate\Log\LogManager->get()
+#5 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(701): Illuminate\Log\LogManager->driver()
+#6 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(380): Illuminate\Log\LogManager->error()
+#7 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(343): Illuminate\Foundation\Exceptions\Handler->reportThrowable()
+#8 /home/wxhepg4t9r8z/backend/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(46): Illuminate\Foundation\Exceptions\Handler->report()
+#9 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(186): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->report()
+#10 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#12 {main}
+  thrown in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php on line 60
+[21-Nov-2025 22:58:02 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Logger.php on line 683
+[21-Nov-2025 22:58:02 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Monolog\Logger" not found in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php:60
+Stack trace:
+#0 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php(38): Monolog\Handler\AbstractHandler->setLevel()
+#1 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(52): Monolog\Handler\AbstractHandler->__construct()
+#2 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(207): Monolog\Handler\StreamHandler->__construct()
+#3 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(161): Illuminate\Log\LogManager->createEmergencyLogger()
+#4 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(126): Illuminate\Log\LogManager->get()
+#5 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(701): Illuminate\Log\LogManager->driver()
+#6 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(380): Illuminate\Log\LogManager->error()
+#7 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(343): Illuminate\Foundation\Exceptions\Handler->reportThrowable()
+#8 /home/wxhepg4t9r8z/backend/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(46): Illuminate\Foundation\Exceptions\Handler->report()
+#9 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(186): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->report()
+#10 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#12 {main}
+  thrown in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php on line 60
+[21-Nov-2025 16:05:36 UTC] PHP Parse error:  syntax error, unexpected string content "/import/csv" in routes/api.php on line 167
+[21-Nov-2025 23:05:50 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Logger.php on line 683
+[21-Nov-2025 23:05:50 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Monolog\Logger" not found in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php:60
+Stack trace:
+#0 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php(38): Monolog\Handler\AbstractHandler->setLevel()
+#1 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(52): Monolog\Handler\AbstractHandler->__construct()
+#2 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(207): Monolog\Handler\StreamHandler->__construct()
+#3 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(161): Illuminate\Log\LogManager->createEmergencyLogger()
+#4 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(126): Illuminate\Log\LogManager->get()
+#5 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(701): Illuminate\Log\LogManager->driver()
+#6 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(380): Illuminate\Log\LogManager->error()
+#7 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(343): Illuminate\Foundation\Exceptions\Handler->reportThrowable()
+#8 /home/wxhepg4t9r8z/backend/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(46): Illuminate\Foundation\Exceptions\Handler->report()
+#9 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(186): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->report()
+#10 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#12 {main}
+  thrown in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php on line 60
+[22-Nov-2025 00:27:16 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Logger.php on line 683
+[22-Nov-2025 00:27:16 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Monolog\Logger" not found in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php:60
+Stack trace:
+#0 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php(38): Monolog\Handler\AbstractHandler->setLevel()
+#1 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(52): Monolog\Handler\AbstractHandler->__construct()
+#2 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(207): Monolog\Handler\StreamHandler->__construct()
+#3 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(161): Illuminate\Log\LogManager->createEmergencyLogger()
+#4 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(126): Illuminate\Log\LogManager->get()
+#5 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(701): Illuminate\Log\LogManager->driver()
+#6 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(380): Illuminate\Log\LogManager->error()
+#7 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(343): Illuminate\Foundation\Exceptions\Handler->reportThrowable()
+#8 /home/wxhepg4t9r8z/backend/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(46): Illuminate\Foundation\Exceptions\Handler->report()
+#9 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(186): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->report()
+#10 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#12 {main}
+  thrown in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php on line 60
+[22-Nov-2025 00:27:50 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Logger.php on line 683
+[22-Nov-2025 00:27:50 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Monolog\Logger" not found in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php:60
+Stack trace:
+#0 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php(38): Monolog\Handler\AbstractHandler->setLevel()
+#1 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(52): Monolog\Handler\AbstractHandler->__construct()
+#2 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(207): Monolog\Handler\StreamHandler->__construct()
+#3 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(161): Illuminate\Log\LogManager->createEmergencyLogger()
+#4 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(126): Illuminate\Log\LogManager->get()
+#5 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(701): Illuminate\Log\LogManager->driver()
+#6 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(380): Illuminate\Log\LogManager->error()
+#7 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(343): Illuminate\Foundation\Exceptions\Handler->reportThrowable()
+#8 /home/wxhepg4t9r8z/backend/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(46): Illuminate\Foundation\Exceptions\Handler->report()
+#9 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(186): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->report()
+#10 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#12 {main}
+  thrown in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php on line 60
+[22-Nov-2025 00:28:08 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Logger.php on line 683
+[22-Nov-2025 00:28:08 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Monolog\Logger" not found in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php:60
+Stack trace:
+#0 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php(38): Monolog\Handler\AbstractHandler->setLevel()
+#1 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(52): Monolog\Handler\AbstractHandler->__construct()
+#2 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(207): Monolog\Handler\StreamHandler->__construct()
+#3 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(161): Illuminate\Log\LogManager->createEmergencyLogger()
+#4 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(126): Illuminate\Log\LogManager->get()
+#5 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(701): Illuminate\Log\LogManager->driver()
+#6 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(380): Illuminate\Log\LogManager->error()
+#7 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(343): Illuminate\Foundation\Exceptions\Handler->reportThrowable()
+#8 /home/wxhepg4t9r8z/backend/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(46): Illuminate\Foundation\Exceptions\Handler->report()
+#9 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(186): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->report()
+#10 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#12 {main}
+  thrown in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php on line 60
+[22-Nov-2025 00:28:15 Asia/Ho_Chi_Minh] PHP Fatal error:  Declaration of Monolog\Logger::emergency(Stringable|string $message, array $context = []): void must be compatible with PsrExt\Log\LoggerInterface::emergency($message, array $context = []) in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Logger.php on line 683
+[22-Nov-2025 00:28:15 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Monolog\Logger" not found in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php:60
+Stack trace:
+#0 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php(38): Monolog\Handler\AbstractHandler->setLevel()
+#1 /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(52): Monolog\Handler\AbstractHandler->__construct()
+#2 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(207): Monolog\Handler\StreamHandler->__construct()
+#3 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(161): Illuminate\Log\LogManager->createEmergencyLogger()
+#4 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(126): Illuminate\Log\LogManager->get()
+#5 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(701): Illuminate\Log\LogManager->driver()
+#6 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(380): Illuminate\Log\LogManager->error()
+#7 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(343): Illuminate\Foundation\Exceptions\Handler->reportThrowable()
+#8 /home/wxhepg4t9r8z/backend/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(46): Illuminate\Foundation\Exceptions\Handler->report()
+#9 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(186): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->report()
+#10 /home/wxhepg4t9r8z/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#12 {main}
+  thrown in /home/wxhepg4t9r8z/backend/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php on line 60
